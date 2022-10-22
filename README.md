@@ -12,7 +12,7 @@ El codi està fet amb JS i p5.js
 
 Per executar-lo faig servir [Visual Studio Code](https://code.visualstudio.com/) amb el pluggin [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-![ScreenShot](assets/screeenshot.png)
+![ScreenShot](./assets/screenshot.png)
 
 # License
 
