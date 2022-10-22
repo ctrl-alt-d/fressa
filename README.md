@@ -12,6 +12,8 @@ El codi està fet amb JS i p5.js
 
 Per executar-lo faig servir [Visual Studio Code](https://code.visualstudio.com/) amb el pluggin [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
+![ScreenShot](assets/screeenshot.png)
+
 # License
 
 * The p5.js library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, version 2.1.
