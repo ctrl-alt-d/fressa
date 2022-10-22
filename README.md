@@ -12,6 +12,12 @@ El codi està fet amb JS i p5.js
 
 Per executar-lo faig servir [Visual Studio Code](https://code.visualstudio.com/) amb el pluggin [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
+## Problemes coneguts
+
+Degut a que el programa fa servir el subsistema d'audio, cal fer clic per iniciar-lo (els navegadors no volen iniciar el subsistema audio automàticament per evitar spam) Li cal un missatge que ho indiqui (mirar issues)
+
+## Screenshot
+
 ![ScreenShot](./assets/screenshot.png)
 
 # License
