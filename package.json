@@ -1,0 +1,23 @@
+{
+  "name": "fressa",
+  "version": "1.0.0",
+  "description": " Fent fressa cal encaixar el quadrat petit dins el gros durant 5 segons seguits.",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrl-alt-d/fressa.git"
+  },
+  "author": "ctrl-alt-d",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctrl-alt-d/fressa/issues"
+  },
+  "homepage": "https://github.com/ctrl-alt-d/fressa#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
