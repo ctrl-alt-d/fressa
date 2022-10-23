@@ -8,22 +8,31 @@ let player_height = 0;
 let dy = 5;
 
 // target
-let target_height = background_size / 5;
-let target_size = background_size / 4;
+let target_height = 200; // 300
+let target_size = 300; // 100;
+let started = false;
+let count_down = 20.;
+
 
 // cronòmetre
-let seconcs_to_win_parm = 3.;
+let seconcs_to_win_parm = 5.;
 let seconcs_to_win = seconcs_to_win_parm;
 
 function setup(){
   frameRate(fps);
   let cnv = createCanvas(background_size, background_size);
-  cnv.mousePressed(userStartAudio);
+  cnv.mousePressed(onStart);
   textAlign(CENTER);
   rectMode(CENTER);
   mic = new p5.AudioIn();
   mic.start();
   textSize(100);
+}
+
+function onStart()
+{
+  userStartAudio();
+  started = true;
 }
 
 function draw(){
@@ -32,10 +41,23 @@ function draw(){
     background(0,255,0);
     return;
   }
+
+  if (count_down<0)
+  {
+    background(255,0,0);
+    return;
+  }
+
+  ticTacBaixenSegons();
   pintaSegonsQueFalten();
   let aux_y = pillaElVolumAmbient();
   pintaElTarget();
   pintaElPlayer(aux_y);
+}
+
+function ticTacBaixenSegons() {
+  if (started)
+    count_down -= 1. / fps;
 }
 
 function pintaElPlayer(aux_y) {
@@ -65,6 +87,7 @@ function pillaElVolumAmbient() {
 function pintaSegonsQueFalten() {
   background(0);
   fill(255);
-  text(Math.trunc(seconcs_to_win), width / 2, 120);
+  text(Math.trunc(seconcs_to_win), 200, 120);
+  text(Math.trunc(count_down), 600, 120);
 }
 
