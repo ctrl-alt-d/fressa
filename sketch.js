@@ -12,7 +12,8 @@ let target_height = background_size / 5;
 let target_size = background_size / 4;
 
 // cronòmetre
-let seconcs_to_win = 5.;
+let seconcs_to_win_parm = 3.;
+let seconcs_to_win = seconcs_to_win_parm;
 
 function setup(){
   frameRate(fps);
@@ -41,7 +42,7 @@ function pintaElPlayer(aux_y) {
   let isInside = (Math.abs(player_height - target_height) < (target_size - player_size) / 2);
   let c = isInside ? color(0, 255, 0) : color(0, 0, 255);
   fill(c);
-  seconcs_to_win = isInside ? seconcs_to_win - (1. / fps) : 5.;
+  seconcs_to_win = isInside ? seconcs_to_win - (1. / fps) : seconcs_to_win_parm;
   player_height = player_height - dy;
   if (player_height < 0)
     player_height = 0;
