@@ -4,9 +4,9 @@ Fressa és tan sols un joc. Fent fressa cal encaixar el quadrat petit dins el gr
 
 Aquest joc el vaig picar ahir a la nit i no l'he provat mai en públic. Si m'animo el provo a la lightning talks de https://hacktoberfest.geeks.cat/.
 
-Qualsevol suggeriment, idea o ajuda per a la posada en escena és benbinguda. En principi la idea és partir de la configuració inicial i anar posant cada cop més amunt el quadrat gros (i potser fer-lo més petit)
+Qualsevol suggeriment, idea o ajuda per a la posada en escena és benvinguda. En principi la idea és partir de la configuració inicial i anar posant cada cop més amunt el quadrat gros (i potser fer-lo més petit)
 
-Si el proves i creus que es pot millorar alguna cosa (colors, text, confettis, ...), endavant amb les PRs!
+Si el proves i creus que es pot millorar alguna cosa (colors, text, confetis, ...), endavant amb les PRs!
 
 El codi està fet amb JS i p5.js
 
@@ -14,7 +14,7 @@ Per executar-lo faig servir [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Problemes coneguts
 
-Degut a que el programa fa servir el subsistema d'audio, cal fer clic per iniciar-lo (els navegadors no volen iniciar el subsistema audio automàticament per evitar spam) Li cal un missatge que ho indiqui (mirar issues)
+Pel fet que el programa fa servir el subsistema d'àudio, cal fer clic per iniciar-lo (els navegadors no volen iniciar el subsistema àudio automàticament per evitar spam) Li cal un missatge que ho indiqui (mirar issues)
 
 ## Screenshot
 
