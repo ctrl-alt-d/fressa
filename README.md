@@ -1,10 +1,10 @@
-# FRESA
+# FRESSA
 
 Fressa és tan sols un joc. Fent fressa cal encaixar el quadrat petit dins el gros durant 5 segons seguits.
 
 Aquest joc el vaig picar ahir a la nit i no l'he provat mai en públic. Si m'animo el provo a la lightning talks de https://hacktoberfest.geeks.cat/.
 
-Qualsevol suggeriment, idea o ajuda per a la posada en escena és venbinguda. En principi la idea és partir de la configuració inicial i anar posant cada cop més amunt el quadrat gros (i potser fer-lo més petit)
+Qualsevol suggeriment, idea o ajuda per a la posada en escena és benbinguda. En principi la idea és partir de la configuració inicial i anar posant cada cop més amunt el quadrat gros (i potser fer-lo més petit)
 
 Si el proves i creus que es pot millorar alguna cosa (colors, text, confettis, ...), endavant amb les PRs!
 
